@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/UserSettingsFragment_CardView_RingTone"
+        android:layout_height="wrap_content"
+        android:text="fsfvvfdv">
+
+
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/UserSettingsFragment_TextView_UserSettingsx"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/UserSettingsFragment_CardView_ReminderTime"
+            android:layout_height="wrap_content"
+            android:text="fsfvvfdv">
+
+
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/UserSettingsFragment_TextView_DefaultReminderTime"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/UserSettingsFragment_CardView_ReminderFrequency"
+            android:layout_height="wrap_content"
+            android:text="fsfvvfdv">
+
+
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/UserSettingsFragment_TextView_DefaultReminderFrequency"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/UserSettingsFragment_CardView_AppTheme"
+            android:layout_height="wrap_content"
+            android:text="fsfvvfdv">
+
+
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/UserSettingsFragment_TextView_AppTheme"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

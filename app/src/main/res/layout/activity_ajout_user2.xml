@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.example.dkorh.AjoutUser.AjoutUser2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/home_toolbar5x"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/colorPrimary"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="INFORMATION JIS UTILISATEUR"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/bleu"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:layout_height="match_parent">
+            </TextView>
+
+            <EditText
+                android:id="@+id/numerop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#2CA7E0"
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:hint="NUMERO PROFE"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit"
+                android:padding="20dp" />
+            <EditText
+                android:id="@+id/nomp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#2CA7E0"
+                android:layout_gravity="center"
+                android:hint="NOM PROF"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit"
+                android:padding="20dp" />
+            <EditText
+                android:id="@+id/prenomp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#2CA7E0"
+                android:layout_gravity="center"
+                android:hint="PRENOM PROF"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit"
+                android:padding="20dp" />
+            <EditText
+                android:id="@+id/poste"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#2CA7E0"
+                android:layout_gravity="center"
+                android:hint="POSTE"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit"
+                android:padding="20dp" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="#2CA7E0"
+                android:layout_marginTop="15dp"
+                android:id="@+id/spinner" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#2CA7E0"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="PRENOM"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#2CA7E0"
+                        android:layout_marginRight="20dp"
+                        android:text="id Manageur"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#2CA7E0"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"
+                        android:text="NUMERO"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/textViewName"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/textViewCourse"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/textViewSession"
+                        />
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/buttonx"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="SUIVANT"
+                android:textColor="#fff"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/button" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:orientation="horizontal"
+    android:background="@color/bleu"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp"
+    android:layout_height="410dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="400dp"
+android:clickable="true"
+android:orientation="horizontal"
+android:layout_marginTop="30dp"
+android:padding="5dp">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TELEPHONE"
+    android:textColor="@color/colorAccent"
+    android:layout_alignParentRight="true"
+    android:layout_marginLeft="5dp"
+    android:textStyle="bold"
+    android:id="@+id/usernameTxt"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TELEPHONE"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/emailTxt" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ROLE USER"
+    android:textColor="@color/colorAccent"
+    android:textStyle="bold"
+    android:layout_alignParentRight="true"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:id="@+id/nameTxt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROLE USER"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/numero"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROLE USER"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/role"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROLE USER"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/date"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROLE USER"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/NOMP"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROLE USER"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/PRENOMP"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="NOM :"
+    android:textStyle="bold"
+    android:layout_marginLeft="5dp"
+    android:textColor="#666"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:layout_marginTop="50dp"
+    android:text="PRENOM :"
+    android:textColor="#666"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:text="Email :"
+        android:textColor="#666"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:text="Numero :"
+        android:textColor="#666"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        android:text="Role :"
+        android:textColor="#666"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:text="Date :"
+        android:textColor="#666"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:text="NOM PRO :"
+        android:textColor="#666"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="350dp"
+        android:text="PRENOM PRO :"
+        android:textColor="#666"/>
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

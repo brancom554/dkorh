@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a8cf38</color>
+    <color name="colorPrimaryDark">#006200</color>
+    <color name="colorAccent">#273AA6</color>
+    <color name="complementary_third">#00433C</color>
+    <color name="custom_toast_tv_color">#FFFFFF</color>
+    <color name="bg_stock_activity">#a8cf38</color>
+    <color name="bg_stock_shipping">#a8cf38</color>
+    <color name="bg_stock_shipping2">#bfd9a9</color>
+    <color name="content_background">#fafafa</color>
+    <color name="card_package_bg">#F1F3f4</color>
+    <color name="bg_header">#F0F0F0</color>
+    <color name="bg_signature">#d1D1D1</color>
+    <color name="inactive">#a8a8a8</color>
+    <color name="color_fonce">#283234</color>
+    <color name="rouge">#FF0000</color>
+    <color name="gray">#2d2d2d</color>
+    <color name="color_checkbox_toolbar">#ff8d32</color>
+
+    <color name="bleu">#77b5fe</color>
+    <color name="noir">#000000</color>
+    <color name="blanc">#FFFF</color>
+
+
+
+
+
+
+    <color name="Indigo">#77b5fe</color>
+    <color name="yellow">#F1C40F</color>
+    <color name="blue">#3498DB</color>
+    <color name="brown">#77b5fe</color>
+    <color name="green">#009D58</color>
+    <color name="cyan">#00E5FF</color>
+    <color name="pink">#F50057</color>
+    <color name="red">#FF3D00</color>
+    <color name="deepPurple">#673AB7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="lime">#C6FF00</color>
+    <color name="darkIndigo">#212E3A</color>
+    <color name="darkIndigo2">#3C4955</color>
+    <color name="lightIndigo">#A0BDD8</color>
+    <color name="Grey">#5E5E5E</color>
+    <color name="lightGrey">#C5C5C5</color>
+    <color name="darkGrey">#35363A</color>
+    <color name="darkGrey2">#252525</color>
+    <color name="lightGrey2">#5A5A5A</color>
+    <color name="lBlack">#1F1F1F</color>
+    <color name="Grey900">#212121</color>
+    <color name="Grey800">#424242</color>
+</resources>

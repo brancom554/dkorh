@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.dkorh.ListeDemande.DetailDemande">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/home_toolbar1000x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.example.dkorh.getAllUser.DetailUser">
+            <androidx.cardview.widget.CardView
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="5dp"
+                android:layout_height="match_parent">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="1">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:id="@+id/articleDetailImg"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:layout_alignParentTop="true"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/user" />
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:id="@+id/nomd"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:padding="5dp"
+                                    android:minLines="1"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorAccent"
+                                    android:text="Title" />
+                                <TextView
+                                    android:id="@+id/prenomd"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:padding="5dp"
+                                    android:minLines="1"
+                                    android:textStyle="bold"
+                                    android:text="Username" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="?attr/actionBarSize"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp">
+                            <TextView
+                                android:id="@+id/datedebutd"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorAccent"
+                                android:text="Date de debut" />
+                            <TextView
+                                android:id="@+id/datefind"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorAccent"
+                                android:text="Date de fin" />
+                            <TextView
+                                android:id="@+id/heuredebutd"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorAccent"
+                                android:text="Heure de debut" />
+
+                            <TextView
+                                android:id="@+id/heurefind"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorAccent"
+                                android:text="Heure de fin" />
+
+
+                            <TextView
+                                android:id="@+id/typed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorAccent"
+                                android:text="Type" />
+                            <TextView
+                                android:id="@+id/type2d"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorAccent"
+                                android:text="Sous Type " />
+                            <TextView
+                                android:id="@+id/posted"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorAccent"
+                                android:text="Poste" />
+                            <TextView
+                                android:id="@+id/emaix"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorAccent"
+                                android:text="Email" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="25dp"
+                                android:layout_height="wrap_content" >
+                                <Button
+                                    android:id="@+id/validerd"
+                                    android:layout_width="0dp"
+                                    android:text="VALIDER"
+                                    android:background="@drawable/button"
+                                    android:layout_weight="1"
+                                    android:layout_height="wrap_content" />
+                                <Button
+                                    android:id="@+id/annulerd"
+                                    android:layout_width="0dp"
+                                    android:text="REJECTER"
+                                    android:background="@drawable/button"
+                                    android:layout_weight="1"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </LinearLayout>
